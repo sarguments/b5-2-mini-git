@@ -5,5 +5,28 @@
 ## 범위
 Python CLI Mini Git·커밋 DAG·위상정렬 로그·BFS 최단 경로·직접 정렬·역색인
 
-## 상태
-- 2026-09-22 최소 골격(README)만 커밋. 구현은 미션 착수 후 작성자 본인이 진행합니다.
+## 개발 환경
+Python 3.10 이상을 사용하는 CLI 프로그램입니다. 실행 환경을 준비한 뒤 실제 버전과 시작 명령을 기록합니다.
+
+### 새 환경에서 준비
+
+Git을 설치한 뒤 새 기기에서 저장소를 받습니다.
+
+```bash
+git clone https://github.com/sarguments/b5-2-mini-git.git
+cd b5-2-mini-git
+```
+
+Python 3.10 이상을 설치한 뒤 저장소 루트에서 실행합니다. 가상환경은 기기마다 새로 만듭니다.
+
+```bash
+python3 --version
+python3 -m venv .venv
+.venv/bin/python --version
+```
+
+아직 실행할 기능 코드가 없습니다. 실행 명령과 외부 의존성은 실제 구현 후 기록합니다.
+
+## 준비 상태
+Python 3.14.3 가상환경을 준비했습니다. 그래프 탐색·정렬·검색 인덱스는 직접 구현합니다.
+그래프 전용 라이브러리와 sorted()·list.sort() 등 정렬 API를 사용하지 않습니다.
